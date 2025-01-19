@@ -12,3 +12,6 @@ package-install:
 
 package-reinstall:
 	uv tool install dist/*.whl --reinstall
+
+lint:
+	uv run ruff check brain_games --fix
