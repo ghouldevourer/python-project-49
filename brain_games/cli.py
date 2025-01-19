@@ -5,14 +5,20 @@ import prompt
 
 def welcome_user():
     print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
-    print('Hello,', name)
+    sname = prompt.string('May I have your name? ')
+    print('Hello,', sname)
+    return sname
+
+
+def booltostr(answ, exp):
+    if answ == exp:
+        return 'yes'
+    else:
+        return 'no'
 
 
 def chk_answer(type):
-    print('Welcome to the Brain Games!')
-    sname = prompt.string('May I have your name? ')
-    print('Hello,', sname)
+    sname = welcome_user()
     operators_list = ['*', '+', '-'] 
     right_answer = 0
     wrong_answer = 0
@@ -26,7 +32,8 @@ def chk_answer(type):
                     exp = f'{a}'
                     print(f'Question: {exp}')
                     answ = prompt.string('Your answer: ')
-                    match answ:
+                    answ_case = booltostr(answ, 'yes')
+                    match answ_case:
                         case 'yes':
                             if eval(exp) % 2 == 0:
                                 print('Correct!')
@@ -58,12 +65,13 @@ def chk_answer(type):
                     exp = f'{a} {b} {c}'  
                     print(f'Question: {exp}')
                     answ = prompt.string('Your answer: ')
+                    answ_case = booltostr(answ, str(eval(exp)))
                     try:
-                        match answ == str(eval(exp)):
-                            case True:
+                        match answ_case:
+                            case 'yes':
                                 print('Correct!')
                                 right_answer += 1
-                            case False:
+                            case 'no':
                                 print(f'\'{answ}\' is wrong answer ;(.'
                                     f' Correct answer was '
                                     f'\'{str(eval(exp))}\'.')
