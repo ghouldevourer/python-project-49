@@ -9,6 +9,7 @@ def welcome_user():
     print('Hello,', sname)
     return sname
 
+
 def get_question_and_answer(type):
     a = random.randint(1, 999)
     if type == 'even':
@@ -22,6 +23,7 @@ def get_question_and_answer(type):
         correct_answer = str(eval(exp))
     return question, correct_answer
 
+
 def chk_answer(type):
     sname = welcome_user()
     right_answers = 0
@@ -33,7 +35,8 @@ def chk_answer(type):
             print('Correct!')
             right_answers += 1
         else:
-            print(f'\'{user_answer}\' is wrong answer ;(. Correct answer was \'{correct_answer}\'.')
+            print(f'\'{user_answer}\' is wrong answer ;(. '
+                  f'Correct answer was \'{correct_answer}\'.')
             print(f'Let\'s try again, {sname}!')
             break
     if right_answers == 3:
