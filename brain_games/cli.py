@@ -73,8 +73,7 @@ def get_question_and_answer(type):
     return question, correct_answer
 
 
-def chk_answer(type):
-    sname = welcome_user()
+def chk_answer(type, sname):
     right_answers = 0
     for _ in range(3):
         question, correct_answer = get_question_and_answer(type)
