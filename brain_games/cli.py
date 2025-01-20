@@ -9,6 +9,7 @@ def welcome_user():
     print('Hello,', sname)
     return sname
 
+
 def is_prime(n):
     if n <= 1:
         return False
@@ -24,6 +25,7 @@ def is_prime(n):
         i += 6
     
     return True
+
 
 def get_question_and_answer(type):
     a = random.randint(1, 999)
@@ -64,7 +66,10 @@ def get_question_and_answer(type):
         progression[hidden_index] = '..'
         question_format = ' '.join(map(str, progression))
         question = f'Question: {question_format}'
-
+    elif type == 'prime':
+        print('Answer "yes" if given number is prime. Otherwise answer "no".')
+        question = f'Question: {a}'
+        correct_answer = 'yes' if is_prime(a) else 'no'
     return question, correct_answer
 
 
