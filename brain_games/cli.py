@@ -31,7 +31,7 @@ def get_question_and_answer(type):
     a = random.randint(1, 999)
     c = random.randint(1, 999)
     if type == 'even':
-        print('Answer "yes" if the number is even, otherwise answer "no"')
+        print('Answer "yes" if the number is even, otherwise answer "no".')
         question = f'Question: {a}'
         correct_answer = 'yes' if a % 2 == 0 else 'no'
     elif type == 'calc':
