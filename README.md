@@ -16,30 +16,30 @@ You can call every app separately or use main app 'brain-games'.
 
 <details open>
   <summary>Brain Games</summary>
-  <p><script src="https://asciinema.org/a/vf4SvD0dTlFujQK5sWlU6KUOH.js" id="asciicast-vf4SvD0dTlFujQK5sWlU6KUOH" async="true"></script></p>
+  <p>[![asciicast](https://asciinema.org/a/vf4SvD0dTlFujQK5sWlU6KUOH.svg)](https://asciinema.org/a/vf4SvD0dTlFujQK5sWlU6KUOH)</p>
 </details>
 
 <details>
   <summary>Brain Even</summary>
-  <p><script src="https://asciinema.org/a/oT5LMPSON2I4chE5EFQWYUwFP.js" id="asciicast-oT5LMPSON2I4chE5EFQWYUwFP" async="true"></script></p>
+  <p>[![asciicast](https://asciinema.org/a/oT5LMPSON2I4chE5EFQWYUwFP.svg)](https://asciinema.org/a/oT5LMPSON2I4chE5EFQWYUwFP)</p>
 </details>
 
 <details>
   <summary>Brain Calc</summary>
-  <p><script src="https://asciinema.org/a/syanDdjIrdgHe7tTmcx6hAUiH.js" id="asciicast-syanDdjIrdgHe7tTmcx6hAUiH" async="true"></script></p>
+  <p>[![asciicast](https://asciinema.org/a/syanDdjIrdgHe7tTmcx6hAUiH.svg)](https://asciinema.org/a/syanDdjIrdgHe7tTmcx6hAUiH)</p>
 </details>
 
 <details>
   <summary>Brain GDC</summary>
-  <p><script src="https://asciinema.org/a/oYGfVQIOmaeARwG6Zvg0HWTer.js" id="asciicast-oYGfVQIOmaeARwG6Zvg0HWTer" async="true"></script></p>
+  <p>[![asciicast](https://asciinema.org/a/oYGfVQIOmaeARwG6Zvg0HWTer.svg)](https://asciinema.org/a/oYGfVQIOmaeARwG6Zvg0HWTer)</p>
 </details>
 
 <details>
   <summary>Brain Progression</summary>
-  <p><script src="https://asciinema.org/a/lgo6T5ES7oMFedGRIfI1dvoob.js" id="asciicast-lgo6T5ES7oMFedGRIfI1dvoob" async="true"></script></p>
+  <p>[![asciicast](https://asciinema.org/a/lgo6T5ES7oMFedGRIfI1dvoob.svg)](https://asciinema.org/a/lgo6T5ES7oMFedGRIfI1dvoob)</p>
 </details>
 
 <details>
   <summary>Brain Prime</summary>
-  <p><script src="https://asciinema.org/a/f1l3raCZthdehHgavpU82aDPy.js" id="asciicast-f1l3raCZthdehHgavpU82aDPy" async="true"></script></p>
+  <p>[![asciicast](https://asciinema.org/a/f1l3raCZthdehHgavpU82aDPy.svg)](https://asciinema.org/a/f1l3raCZthdehHgavpU82aDPy)</p>
 </details>
