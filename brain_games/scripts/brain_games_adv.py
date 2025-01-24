@@ -1,10 +1,14 @@
 import prompt
 
-from brain_games.cli import chk_answer, welcome_user
+from brain_games.scripts.brain_calc import main as brain_calc
+from brain_games.scripts.brain_even import main as brain_even
+from brain_games.scripts.brain_gcd import main as brain_gcd
+from brain_games.scripts.brain_prime import main as brain_prime
+from brain_games.scripts.brain_progression import main as brain_progression
 
 
 def main():
-    sname = welcome_user()
+    # name = welcome_user()
     print('From here you can select the game you are interested in.')
     print('1. Brain Even. Let\'s check how much you understand about parity.')
     print('2. Brain Calc. Let\'s see how good you are with arithmetic.')
@@ -16,15 +20,15 @@ def main():
     answ = prompt.string('Enter a game number: ')
     match answ:
         case '1':
-            chk_answer('even', sname)
+            brain_even()
         case '2':
-            chk_answer('calc', sname)
+            brain_calc()
         case '3':
-            chk_answer('gcd', sname)
+            brain_gcd()
         case '4':
-            chk_answer('progression', sname)
+            brain_progression()
         case '5':
-            chk_answer('prime', sname)
+            brain_prime
         case _:
             print('Good Bye!')
 
