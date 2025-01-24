@@ -17,8 +17,8 @@ def main():
     print('4. Brain Progression. Let\'s see if you can '
           'find a pattern in a series of numbers.')
     print('5. Brain Prime. Let\'s check what you know about prime numbers.')
-    answ = prompt.string('Enter a game number: ')
-    match answ:
+    answer = prompt.string('Enter a game number: ')
+    match answer:
         case '1':
             brain_even()
         case '2':

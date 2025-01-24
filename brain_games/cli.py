@@ -3,9 +3,9 @@ import prompt
 
 def welcome_user():
     print('Welcome to the Brain Games!')
-    sname = prompt.string('May I have your name? ')
-    print('Hello,', sname)
-    return sname
+    name = prompt.string('May I have your name? ')
+    print('Hello,', name)
+    return name
 
 
 def is_prime(n):
@@ -25,7 +25,7 @@ def is_prime(n):
     return True
 
 
-def chk_answer(question, correct_answer, name):
+def check_answer(question, correct_answer, name):
     right_answers = 0
     for _ in range(3):
         print(question)

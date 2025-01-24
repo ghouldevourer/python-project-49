@@ -1,6 +1,6 @@
 import random
 
-from brain_games.cli import chk_answer, welcome_user
+from brain_games.cli import check_answer, welcome_user
 
 
 def main():
@@ -12,4 +12,4 @@ def main():
     exp = f'{a} {b} {c}'
     question = f'Question: {exp}'
     correct_answer = str(eval(exp))
-    chk_answer(question, correct_answer, name)
+    check_answer(question, correct_answer, name)

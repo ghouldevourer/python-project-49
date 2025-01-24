@@ -1,6 +1,6 @@
 import random
 
-from brain_games.cli import chk_answer, welcome_user
+from brain_games.cli import check_answer, welcome_user
 
 
 def main():
@@ -9,4 +9,4 @@ def main():
     print('Answer "yes" if the number is even, otherwise answer "no".')
     question = f'Question: {a}'
     correct_answer = 'yes' if a % 2 == 0 else 'no'
-    chk_answer(question, correct_answer, name)
+    check_answer(question, correct_answer, name)

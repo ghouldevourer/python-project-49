@@ -1,6 +1,6 @@
 import random
 
-from brain_games.cli import chk_answer, welcome_user
+from brain_games.cli import check_answer, welcome_user
 
 
 def main():
@@ -20,4 +20,4 @@ def main():
     progression[hidden_index] = '..'
     question_format = ' '.join(map(str, progression))
     question = f'Question: {question_format}'
-    chk_answer(question, correct_answer, name)
+    check_answer(question, correct_answer, name)

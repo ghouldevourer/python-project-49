@@ -1,6 +1,6 @@
 import random
 
-from brain_games.cli import chk_answer, welcome_user
+from brain_games.cli import check_answer, welcome_user
 
 
 def main():
@@ -16,4 +16,4 @@ def main():
             c = c % a
         exp = a + c
     correct_answer = str(exp)
-    chk_answer(question, correct_answer, name)
+    check_answer(question, correct_answer, name)
